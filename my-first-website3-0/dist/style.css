@@ -1,0 +1,149 @@
+#felso{
+  background: red;
+  font-family: 'Dancing script', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  width: 800px;
+  margin: 0px 200px
+}
+a:link { 
+  color: white;
+  text-decoration: none
+}
+a:visited{
+  color: black
+}
+#bio{
+  width: 800px;
+  display: flex;
+  justify-content: space-between
+}
+.kep{
+  width: 400px;
+  float: left;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  position:relative
+}
+img {
+  width: 400px;
+  height: 450px;
+  margin-right: 0px;
+  object-fit: cover  
+}
+.intro{
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+  padding: 20px
+}
+.introtext{
+  width:400px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222
+}
+
+.bio{
+  width: 800px;
+  display: flex;
+  margin-bottom:100px;
+  justify-content: space-between
+}
+
+h1{
+  font-family:"Dancing Script";
+  color:red;
+  font-size: 20px;
+  position: absolute;
+  top: 72%;
+  left: 12%
+}
+h2{
+  font-family:"Dancing Script";
+  color:red;
+  font-size: 40px;
+  position: absolute;
+  top: 74%;
+  left: 12.5%
+}
+main {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px 200px
+}
+body{
+  align-items:center;
+  align-content:center
+}
+.container {
+  width: 540px;
+  margin-left: 420px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-align: left;
+  position:relative;
+  bottom:425px
+  
+}
+blockqoute{
+  display:flex;
+  font-family: 'Abril Fatface', cursive;
+  width: 300px;
+  background: red;
+  font-size: 43px;
+  color: white;
+  padding: 40px;
+  padding-left: 60px
+}
+blockqoute::before {
+  content:'\201c';
+  font-size: 68px;
+  font-family:'Abril Fatface', cursive;
+ position: absolute;
+   margin-left: -30px;
+  margin-top: -30px
+}
+ul{
+  list-style-type: square;
+  margin-top: 20px;
+  margin-bottom: 40px
+}
+li{
+  font-size: 13px;
+  line-height: 1.6
+}
+.capital{
+  font-weight:bold;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-top: 60px
+}
+.nagy{
+  font-weight:bold
+}
+.dolt{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 0;
+  margin: 0px;
+  margin-bottom:20px;
+  padding: 0px
+}
+h5,h6,h7{
+  font-weight:bold;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-size:20px;
+  margin-top: 60px
+}
+#feljebb{
+ position:relative;
+ bottom:55px
+}
+#lejjebb{
+ position:relative;
+ bottom:55px
+}

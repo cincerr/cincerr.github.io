@@ -1,0 +1,39 @@
+header{
+  background:aqua;
+  height:100px;
+  width: 100%
+}
+div{
+  display:flex;
+  flex-wrap:wrap
+}
+.nari{
+  background:orange;
+  height:500px;
+  width: 10%;
+}
+.lila{
+  background:purple;
+  height:500px;
+  width: 10%
+}
+main{
+  background:red;
+  height:500px;
+  width:70%;
+  flex-grow:4;
+  margin: 0 20px 0 20px
+}
+nav{
+  background: black;
+  width:40px;
+  height:40px;
+  position: fixed;
+  bottom: 20px;
+  right:16%
+}
+footer{
+  background:blue;
+  height:100px;
+  width:100%
+}
